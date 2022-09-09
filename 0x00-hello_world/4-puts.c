@@ -5,7 +5,7 @@
 *
 *Description: using the main function
 * Description: using the main function
-* This program prints "Programming is like building a multingual puzzle"
+* This program prints "Programming is like building a multilingual puzzle
 * Return: 0
 */
 int main(void)
