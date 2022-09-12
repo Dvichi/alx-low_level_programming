@@ -1,6 +1,6 @@
 /*
  * File: 0-positive_or_negative.c
- * Auth: Dvichi
+ * Auth: Chibuike
  */
 
 #include <stdlib.h>
