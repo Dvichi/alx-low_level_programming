@@ -1,16 +1,14 @@
 /*
- * File: 0-putchar.c
- * Auth: Dvichi
- *
- */
-
+* File: 0-putchar.c
+* Auth: Dvichi
+*
+*/
 #include "_putchar.h"
-
 /**
- * main - Prints "_putchar" followed by a new line.
- *
- * Return: Always 0.
- */
+* main - Prints "_putchar" followed by a new line.
+*
+* Return: Always 0.
+*/
 int main(void)
 {
 _putchar('H');
