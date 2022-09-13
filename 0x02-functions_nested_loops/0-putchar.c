@@ -1,11 +1,13 @@
 /*
-* File: 0-putchar.c
-* Auth: Dvichi
+* File: 0-holberton.c
+* Auth: Brennan D Baraban
 *
 */
-#include "_putchar.h"
+
+#include "holberton.h"
+
 /**
-* main - Prints "_putchar" followed by a new line.
+* main - Prints "Holberton" followed by a new line.
 *
 * Return: Always 0.
 */
