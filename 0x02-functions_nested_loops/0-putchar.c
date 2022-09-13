@@ -1,7 +1,6 @@
 /*
 * File: 0-putchar.c
 * Auth: Dvichi
-*
 */
 #include "_putchar.h"
 /**
