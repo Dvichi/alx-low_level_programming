@@ -1,19 +1,16 @@
-/*
-* File: 2-print_alphabet_x10.c
-* Auth: Dvichi
-*/
 #include "main.h"
 /**
-* print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
+* print_alphabet - function to print abc
+*
+* Return: 0
 */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-int count = 0;
-char letter;
-while (count++ <= 9)
+char c;
+
+for (c = 'a'; c <= 'z'; c++)
 {
-for (letter = 'a'; letter <= 'z'; letter++)
-_putchar(letter);
-_putchar('\n');
+_putchar(c);
 }
+_putchar('\n');
 }
