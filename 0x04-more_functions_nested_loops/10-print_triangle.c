@@ -3,7 +3,7 @@
  * Auth: Dvichi
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_triangle - Prints a triangle, using the character #.
