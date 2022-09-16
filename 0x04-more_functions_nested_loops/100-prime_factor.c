@@ -1,31 +1,26 @@
-#include <stdio.h>
+/*
+ * File: 101-print_number.c
+ * Auth: Dvichi
+ */
+
+#include "main.h"
 
 /**
-*main- prints the largest prime factor
-*of a number
-*
-*Return: returns 0
-*/
-
-int main(void)
+ * print_number - Prints an integer.
+ * @n: The integer to be printed.
+ */
+void print_number(int n)
 {
-long number = 612852475143;
-int inc;
+unsigned int num = n;
 
-while (inc++ < number / 2)
+if (n < 0)
 	{
-if (number % inc == 0)
-	{
-number /= 2;
-continue;
+_putchar('-');
+num = -num;
 	}
 
-for (inc = 3; inc < number / 2; inc += 2)
-	{
-if (number % inc == 0)
-number /= inc;
-	}
-	}
-printf("%ld\n", number);
-return (0);
+if ((num / 10) > 0)
+print_number(num / 10);
+
+_putchar((num % 10) + '0');
 }
