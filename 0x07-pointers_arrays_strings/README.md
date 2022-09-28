@@ -1,1 +1,1 @@
-A c program that covers the use of more pointers, arrays and strings
+ A program written in c that covers the use of pointers, arrays, and strins
