@@ -131,7 +131,7 @@ printf("Error\n");
 exit(98);
 		}
 
-num = (*mult - '0') *digit;
+num = (*mult - '0') * digit;
 num += tens;
 *prod = (num % 10) + '0';
 tens = num / 10;
