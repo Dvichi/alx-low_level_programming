@@ -133,7 +133,7 @@ shash_node_t *node;
 unsigned long int index;
 
 if (ht == NULL || key == NULL || *key == '\0')
-		return (NULL);
+return (NULL);
 
 index = key_index((const unsigned char *)key, ht->size);
 if (index >= ht->size)
